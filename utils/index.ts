@@ -8,39 +8,39 @@ type ReducerAction<T extends keyof State> = {
 };
 
 type IconsColor = {
-  flatLeftIcon: string | undefined;
-  flatRightIcon: string | undefined;
-  outlineLeftIcon: string | undefined;
+  flatLeftIcon:     string | undefined;
+  flatRightIcon:    string | undefined;
+  outlineLeftIcon:  string | undefined;
   outlineRightIcon: string | undefined;
-  customIcon: string | undefined;
+  customIcon:       string | undefined;
 };
 
 export type State = {
-  text: string;
-  customIconText: string;
-  name: string;
-  outlinedText: string;
-  largeText: string;
-  flatTextPassword: string;
-  outlinedLargeText: string;
-  outlinedTextPassword: string;
-  nameNoPadding: string;
-  nameRequired: string;
-  flatDenseText: string;
-  flatDense: string;
-  outlinedDenseText: string;
-  outlinedDense: string;
-  flatMultiline: string;
-  flatTextArea: string;
-  flatUnderlineColors: string;
-  outlinedMultiline: string;
-  outlinedTextArea: string;
-  outlinedColors: string;
-  outlinedLongLabel: string;
-  maxLengthName: string;
-  flatTextSecureEntry: boolean;
+  text:                   string;
+  customIconText:         string;
+  name:                   string;
+  outlinedText:           string;
+  largeText:              string;
+  flatTextPassword:       string;
+  outlinedLargeText:      string;
+  outlinedTextPassword:   string;
+  nameNoPadding:          string;
+  nameRequired:           string;
+  flatDenseText:          string;
+  flatDense:              string;
+  outlinedDenseText:      string;
+  outlinedDense:          string;
+  flatMultiline:          string;
+  flatTextArea:           string;
+  flatUnderlineColors:    string;
+  outlinedMultiline:      string;
+  outlinedTextArea:       string;
+  outlinedColors:         string;
+  outlinedLongLabel:      string;
+  maxLengthName:          string;
+  flatTextSecureEntry:    boolean;
   outlineTextSecureEntry: boolean;
-  iconsColor: IconsColor;
+  iconsColor:             IconsColor;
 };
 
 export function inputReducer<T extends keyof State>(
@@ -1225,7 +1225,7 @@ export const colorThemes = {
       ...darkCyanColors,
     },
   },
-} as { [key: string]: { light: MD3Theme; dark: MD3Theme } };
+} as { [ key: string ]: { light: MD3Theme; dark: MD3Theme } };
 
 export const songsData = [
   {
