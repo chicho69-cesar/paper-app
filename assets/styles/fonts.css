@@ -9,7 +9,7 @@
         url('~typeface-roboto/files/roboto-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
         url('~typeface-roboto/files/roboto-latin-100.woff') format('woff'); /* Modern Browsers */
 }
-  
+
 @font-face {
     font-family: 'Roboto-Light';
     font-style: normal;
@@ -21,7 +21,7 @@
         url('~typeface-roboto/files/roboto-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
         url('~typeface-roboto/files/roboto-latin-300.woff') format('woff'); /* Modern Browsers */
 }
-  
+
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
@@ -33,7 +33,7 @@
         url('~typeface-roboto/files/roboto-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
         url('~typeface-roboto/files/roboto-latin-400.woff') format('woff'); /* Modern Browsers */
 }
-  
+
 @font-face {
     font-family: 'Roboto-Medium';
     font-style: normal;
